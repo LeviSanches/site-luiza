@@ -1,0 +1,131 @@
+@import url(fonts.css);
+@import url(resete.css);
+@import url(response.css);
+
+nav{
+    display: grid;    
+    grid-template-areas: 
+    ". . img ul . .";
+}
+
+nav img {
+    margin: 1rem;
+    width: 9rem;
+    grid-area: img;
+    border-radius: 100px;
+}
+
+nav ul {
+    grid-area: ul;
+    display: flex;
+    margin: 2rem;
+}
+
+#section-1, #section-2, #section-3 {
+    background-color: #E4F4E5;
+    display: flex;
+    align-items: center;
+}
+
+#section-4, #section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-5 {
+    background-color: #EC9D44;
+}
+
+#article-1-1, #article-2-1, #article-3-1 {
+    margin-left: 18rem;      
+}
+
+#article-4, #article-5, #article-6 {
+    margin: 0 18rem 7rem 18rem;
+}
+
+#article-1-2, #article-2-2, #article-3-2 {
+    margin-right: 18rem;    
+}
+
+#article-1-1, #article-2-2, #article-3-1, #article-5, #article-6 {
+    text-align: center;
+}
+
+#article-1-1 button{   
+    margin: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 3px solid #394730;
+    color: #394730;
+    background-color: #E4F4E5;
+    transition: background-color 200ms;
+}
+
+#article-1-1 button:hover{   
+    cursor: pointer;
+    background-color: #ffffff;
+    border-color: #394730;
+    color: #EC9D44;
+}
+
+#article-1-2 {    
+    background-color: #EC9D44;
+}
+
+#article-1-2 img {
+    width: 400px;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+#article-2-1 img, #article-3-2 img{
+    width: 35rem;
+    margin: 4rem;
+}
+
+.accordion {
+    background-color: #394730;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.5rem;
+    transition: 0.4s;
+    margin: 1rem;
+}
+  
+.active, .accordion:hover {
+    background-color: #EC9D44; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;    
+    margin: 1rem;
+}
+
+#article-5 button{   
+    margin: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 3px solid #E4F4E5;
+    color: #ffffff;
+    background-color: #394730;
+    transition: background-color 200ms;
+}
+
+#article-5 button:hover{   
+    color: #394730;
+    background-color: #ffffff;
+    border-color: #394730;
+    cursor: pointer;
+}
