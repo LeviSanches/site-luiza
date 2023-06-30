@@ -1,7 +1,21 @@
 let acc = document.getElementsByClassName("accordion");
+let dropBtn = document.getElementById('dropbtn');
+let menu = document.getElementById('myDropdown');
 
-for (let i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+dropBtn.addEventListener('click', () => {  
+  menu.classList.contains('show') ? 
+    menu.classList.remove('show') : 
+    menu.classList.add('show');  
+})
+
+menu.addEventListener('click', () => {  
+  menu.classList.contains('show') ? 
+    menu.classList.remove('show') : 
+    menu.classList.add('show'); 
+})
+
+for (const element of acc) {
+  element.addEventListener("click", function() {
     this.classList.toggle("active");
     let panel = this.nextElementSibling;
     if (panel.style.display === "block") {
@@ -11,3 +25,4 @@ for (let i = 0; i < acc.length; i++) {
     }
   });
 }
+

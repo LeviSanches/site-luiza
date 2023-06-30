@@ -1,0 +1,173 @@
+@media screen and (max-width: 1256px) {
+
+    nav ul li, header div ul li { 
+        margin-left: 1rem;       
+        font-size: 1.4rem;   
+    }
+   
+    section #article-1-1, section #article-2-1, section #article-3-1, section #article-6-1 {    
+        width:45%;
+    }
+    
+    section #article-1-2, section #article-2-2, section #article-3-2, section #article-6-2 {
+       width: 45%;
+    }
+    
+    section #article-4,section #article-5 {
+        width: 70%;
+        margin: 4rem;
+    }
+
+    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-6-1 h1{   
+        font-size: 2rem;    
+    }
+
+    #article-1-1 p {
+        font-size: 1.3rem;
+    }
+    #article-2-2 p, #article-3-1 p, #article-5 p, #article-6-1 p{
+        font-size: 1.2rem;
+    }
+
+    #article-4 {
+        text-align: center;
+    }
+
+    #article-4 .accordion {       
+        padding: 1rem;
+        width: 90%;        
+        font-size: 1rem;
+    }   
+    
+    #article-4 .panel p {
+        font-size: 1rem;             
+    }
+}
+
+@media screen and (max-width: 924px) {
+    section #article-1-1 button{          
+        padding: 0.8rem 2rem;
+        font-size: 1rem;        
+    }
+
+    section #article-5 button{           
+        padding: 0.8rem 2rem;
+        font-size: 1rem;        
+    }
+   
+}
+
+@media screen and (max-width: 776px) {
+    body header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header #nav {
+        display: none;
+    }
+
+    body header img {
+        width: 15%;
+        border: 1px solid #EC9D44;
+        margin: 5px;
+    }
+
+    header #button-nav {
+        display: block;
+        margin: 2rem;
+    }
+
+    header #button-nav ul {
+        display: none;
+    }
+
+    section #article-1-1 button{          
+        padding: 0.8rem 2rem;
+        font-size: 1.3rem;   
+        margin: 2rem;     
+    }
+
+    section #article-5 button{           
+        padding: 0.8rem 2rem;
+        font-size: 1.3rem;    
+        margin: 1rem;    
+    }
+
+    section #article-1-1, section #article-2-1, section #article-3-1, section #article-6-1 {    
+        width:90%;
+    }
+    
+    section #article-1-2, section #article-2-2, section #article-3-2, section #article-6-2 {
+       width: 90%;
+    }
+    
+    #article-3-1 {
+        order: 1;
+    }
+    
+    section #article-3-2 img{
+        width: 100%;
+        margin: 0;
+    }
+
+    section #article-4,section #article-5,section #article-6-1 {
+        width: 90%;
+        margin: 3rem 0;
+    }
+
+    section #article-2-1 img {
+        display: none;
+    }
+
+    section #article-6-2 img {
+        margin: 2rem 0 0 0;
+    }
+
+    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-6-1 h1{   
+        font-size: 3rem; 
+        margin: 2rem 0;   
+    }
+
+    #article-1-1 p {
+        font-size: 1.5rem;
+    }
+    #article-2-2 p, #article-3-1 p, #article-5 p, #article-6-1 p{
+        font-size: 1.3rem;        
+        padding: 1rem;
+        margin: 0;        
+    }
+    
+    section {        
+        flex-direction: column;
+    }
+
+    main #section-6 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-6-1 h1{   
+        font-size: 2.5rem; 
+        margin: 2rem 0;   
+    }
+
+    #article-1-1 p {
+        font-size: 1.2rem;
+    }
+
+    #article-2-2 p, #article-3-1 p, #article-5 p, #article-6-1 p{
+        font-size: 1.2rem;        
+        padding: 1rem;
+        margin: 0;        
+    }
+
+    section #article-1-1, section #article-2-1, section #article-3-1 {    
+        width:90%;
+    }
+    
+    section #article-1-2, section #article-2-2, section #article-3-2 {
+       width: 94%;
+    }
+}

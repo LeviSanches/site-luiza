@@ -2,38 +2,39 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script src="https://kit.fontawesome.com/241ed77ca6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/css/style.css">
     <title>Luiza Sá</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="src/images/logo-luiza.png" alt="">
-            <ul>
-                <li>Início</li>
+        <div id="button-nav" class="button-nav">
+            <i id="dropbtn" class="fa-solid fa-bars fa-2xl dropbtn" style="color: #394730;"></i>            
+            <div id="myDropdown" class="dropdown-content">              
+              <a href="#section-2" class="links">Ebook</a>
+              <a href="#section-3" class="links">Sobre mim</a>
+              <a href="#section-4" class="links">Perguntas Frequentes</a>
+              <a href="#section-5" class="links">Contato</a>
+            </div>
+        </div>        
+        <img src="src/images/logo.png" alt="">
+        <nav id="nav">            
+            <ul>                
                 <li>Ebook</li>
                 <li>Sobre mim</li>
                 <li>Perguntas Frequentes</li>
                 <li>Contato</li>
             </ul>
-        </nav>
-        <!--<div id="button-nav" onclick="buttonNav()">
-            <i class="fa-solid fa-bars fa-2xl" style="color: #4a66b6;"></i>
-            <ul>
-                <li>Início</li>
-                <li>Ebook</li>
-                <li>Sobre im</li>
-                <li>Perguntas Frequentes</li>
-                <li>Contato</li>
-            </ul>
-        </div> -->   
+        </nav>        
     </header>
     <main>
         <section id="section-1">
             <article id="article-1-1">
-                <h1>Receitas Low-carb</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia similique praesentium explicabo qui doloremque</p>
+                <h1>Receitas práticas e saudáveis Low Carb</h1>
+                <p>Aqui, você terá acesso a receitas e alimentos permitidos na dieta Low Carb de forma segura.</p>
                 <button>Compre aqui</button>
             </article>
             <article id="article-1-2">
@@ -46,18 +47,19 @@
             </article>
             <article id="article-2-2">
                 <h1>Sobre o E-Book</h1>
-                <p>Criei este e-book com o objetivo de ajudar muitas pessoas que precisam emagrecer de forma saudável, promovendo a saúde e combatendo o desenvolvimento de Doenças Não Transmissíveis. Aqui, você terá acesso a receitas e alimentos permitidos na dieta Low Carb de forma segura, pois todas as receitas foram selecionadas e avaliadas cuidadosamente. Além disso, como bônus, elaborei estratégias para que você possa atingir seus objetivos.</p><br>
+                <p>Criei este e-book com o objetivo de ajudar muitas pessoas que precisam emagrecer de forma saudável, promovendo a saúde e combatendo o desenvolvimento de Doenças Não Transmissíveis.</p> <br> 
+                <p>Aqui, você terá acesso a receitas e alimentos permitidos na dieta Low Carb de forma segura, pois todas as receitas foram selecionadas e avaliadas cuidadosamente. Além disso, como bônus, elaborei estratégias para que você possa atingir seus objetivos.</p><br>
                 <p>Neste e-book, você encontrará um cardápio semanal e chás diuréticos para auxiliar na perda de peso e retenção de líquidos. E, como surpresa, um bônus especial espera por você no final deste e-book.</p>                
             </article>
         </section>
         <section id="section-3">
             <article id="article-3-1">
                 <h1>Luiza Sá</h1>
-                <p>Me chamo Luiza Sá, sou Nutricionista Clínica, tenho 28 anos, sou mãe e apaixonada pela minha profissão. Com ela, consigo ajudar a transformar muitas vidas, proporcionando mais saúde para meus pacientes. Trabalho na área clínica, com emagrecimento, hipertrofia e tratamento de Doenças Não Transmissíveis.</p><br>
+                <p>Sou Nutricionista Clínica, tenho 28 anos, sou mãe e apaixonada pela minha profissão. Com ela, consigo ajudar a transformar muitas vidas, proporcionando mais saúde para meus pacientes. Trabalho na área clínica, com emagrecimento, hipertrofia e tratamento de Doenças Não Transmissíveis.</p><br>
                 <p>Adoro estar em contato com pessoas e compartilhar experiências e histórias. Serei a nutricionista que marcará a sua vida de forma positiva, é claro! Vem comigo e aproveite ao máximo este E-Book.</p>
             </article>
             <article id="article-3-2">
-                <img src="src/images/E-book -Luiza Sá.png" alt="">
+                <img src="src/images/luiza-sobremim.png" alt="">
             </article>
         </section>
         <section id="section-4">
@@ -85,17 +87,22 @@
             </article>
         </section>
         <section id="section-6">
-            <article id="article-6">
+            <article id="article-6-1">
                 <h1>Ainda tem dúvidas?</h1>
-                <p>Entre em contato comigo, ficarei feliz em sanar suas dúvidas e dar todo o suporte necessário para você adquirir o E-book.</p>
-                <p>Acesse diretamente o meu Whatsapp, retornarei mais rápido do que você imagina!</p>
-                <p>Clique no ícone do Whatsapp e entre em contato.</p>
+                <p>Entre em contato comigo, ficarei feliz em sanar suas dúvidas e dar todo o suporte necessário para você adquirir o E-book. Acesse diretamente o meu Whatsapp ou meu instagram e retornarei mais rápido do que você imagina!</p>               
+                <h2>Selecione o ícone correspondente a rede social que deseja entrar em contato.</h2>
+                <div>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>                
+            </article>
+            <article id="article-6-2">
+               <img src="src/images/luiza-duvidas.png" alt="">
+                               
             </article>
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
     <script src="src/js/scripts.js"></script>
 </body>
 </html>
