@@ -5,27 +5,27 @@
         font-size: 1.4rem;   
     }
    
-    section #article-1-1, section #article-2-1, section #article-3-1, section #article-6-1 {    
+    section #article-1-1, section #article-2-1, section #article-3-1, section #article-5-1 {    
         width:45%;
     }
     
-    section #article-1-2, section #article-2-2, section #article-3-2, section #article-6-2 {
+    section #article-1-2, section #article-2-2, section #article-3-2, section #article-5-2 {
        width: 45%;
     }
     
-    section #article-4,section #article-5 {
+    section #article-4 {
         width: 70%;
         margin: 4rem;
     }
 
-    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-6-1 h1{   
+    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-5-1 h1{   
         font-size: 2rem;    
     }
 
     #article-1-1 p {
         font-size: 1.3rem;
     }
-    #article-2-2 p, #article-3-1 p, #article-5 p, #article-6-1 p{
+    #article-2-2 p, #article-3-1 p, #article-5 p, #article-5-1 p{
         font-size: 1.2rem;
     }
 
@@ -94,11 +94,11 @@
         margin: 1rem;    
     }
 
-    section #article-1-1, section #article-2-1, section #article-3-1, section #article-6-1 {    
+    section #article-1-1, section #article-2-1, section #article-3-1, section #article-5-1 {    
         width:90%;
     }
     
-    section #article-1-2, section #article-2-2, section #article-3-2, section #article-6-2 {
+    section #article-1-2, section #article-2-2, section #article-3-2, section #article-5-2 {
        width: 90%;
     }
     
@@ -111,7 +111,7 @@
         margin: 0;
     }
 
-    section #article-4,section #article-5,section #article-6-1 {
+    section #article-4,section #article-5,section #article-5-1 {
         width: 90%;
         margin: 3rem 0;
     }
@@ -120,11 +120,11 @@
         display: none;
     }
 
-    section #article-6-2 img {
+    section #article-5-2 img {
         margin: 2rem 0 0 0;
     }
 
-    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-6-1 h1{   
+    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-5-1 h1{   
         font-size: 3rem; 
         margin: 2rem 0;   
     }
@@ -132,7 +132,7 @@
     #article-1-1 p {
         font-size: 1.5rem;
     }
-    #article-2-2 p, #article-3-1 p, #article-5 p, #article-6-1 p{
+    #article-2-2 p, #article-3-1 p, #article-5-1 p{
         font-size: 1.3rem;        
         padding: 1rem;
         margin: 0;        
@@ -142,13 +142,17 @@
         flex-direction: column;
     }
 
-    main #section-6 {
+    main #section-5 {
         flex-direction: column-reverse;
+    }
+
+    footer nav ul li{
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 480px) {
-    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-6-1 h1{   
+    #article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-5-1 h1{   
         font-size: 2.5rem; 
         margin: 2rem 0;   
     }
@@ -157,7 +161,7 @@
         font-size: 1.2rem;
     }
 
-    #article-2-2 p, #article-3-1 p, #article-5 p, #article-6-1 p{
+    #article-2-2 p, #article-3-1 p, #article-5-1 p{
         font-size: 1.2rem;        
         padding: 1rem;
         margin: 0;        
@@ -169,5 +173,9 @@
     
     section #article-1-2, section #article-2-2, section #article-3-2 {
        width: 94%;
+    }
+
+    footer nav ul li , footer p{
+        font-size: 0.7rem;
     }
 }

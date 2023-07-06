@@ -60,50 +60,43 @@ header #button-nav ul {
 
 .show {display:block;}
 
-#section-1, #section-2, #section-3, #section-6 {
+#section-1, #section-2, #section-3, #section-5 {
     background-color: #E4F4E5;
     display: flex;
     align-items: center; 
     justify-content: center;       
 }
 
-#section-6 {
+#section-5 {
     flex-direction: row-reverse;
-    background-image: linear-gradient(#EC9D44, #ec9e449a, #E4F4E5, #E4F4E5);
-}
-
-#section-4, #section-5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;      
+    background-image: linear-gradient(#E4F4E5, #394730);
 }
 
 #section-4 {
-    background-image: linear-gradient(#E4F4E5, #ffffff, #EC9D44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: #E4F4E5;  
 }
 
-#section-5 {
-    background-color: #EC9D44;
-}
-
-#article-1-1, #article-2-1, #article-3-1, #article-6-1 {    
+#article-1-1, #article-2-1, #article-3-1, #article-5-1 {    
     width: 35%;
 }
 
-#article-1-2, #article-2-2, #article-3-2, #article-6-2 {
+#article-1-2, #article-2-2, #article-3-2, #article-5-2 {
    width: 35%;
 }
 
-#article-4, #article-5 {
+#article-4 {
     width: 70%;
     margin: 4rem;
 }
 
-#article-1-1, #article-2-2, #article-3-1, #article-5, #article-6-1 {
+#article-1-1, #article-2-2, #article-3-1, #article-5-1 {
     text-align: center;
 }
 
-#article-1-1 button{   
+#article-1-1 button, #section-5 button {   
     margin: 1rem;
     padding: 1rem 3rem;
     font-size: 1.5rem;
@@ -111,11 +104,11 @@ header #button-nav ul {
     border: 3px solid #394730;
     color: #394730;
     background-color: #E4F4E5;
-    transition: background-color 200ms;    
+    transition:  300ms;    
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-#article-1-1 button:hover{   
+#article-1-1 button:hover, #section-5 button:hover {   
     cursor: pointer;
     border-color: #EC9D44;
     color: #EC9D44;
@@ -175,43 +168,31 @@ header #button-nav ul {
     overflow: hidden;    
     margin: 1rem;
 }
-
-#article-5 button{   
-    margin: 1rem;
-    padding: 1rem 3rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border: 3px solid #E4F4E5;
-    color: #ffffff;
-    background-color: #394730;
-    transition: background-color 200ms;    
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-#article-5 button:hover{   
-    color: #394730;
-    background-color: #ffffff;
-    border-color: #394730;
-    cursor: pointer;
-}
-
-#article-6-1 i {
+ 
+#article-5-1 i {
     font-size: 4rem;
-    color: #394730;   
+    color: #fff;   
     transition: color 200ms; 
     margin: 1rem;
 }
 
-#article-6-1 i:hover {
+#article-5-1 i:hover {
     cursor: pointer;    
     color: #EC9D44;    
 }
 
-#article-6-2 {
+#article-5-2 {
     text-align: center;
 }
 
-#article-6-2 img {
+#article-5-2 img {
     width: 90%;
     margin: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
 }

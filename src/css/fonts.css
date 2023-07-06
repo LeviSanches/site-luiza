@@ -14,7 +14,7 @@ nav ul li:hover, header div ul li:hover {
     cursor: pointer;
 }
 
-#article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5 h1, #article-6-1 h1{
+#article-1-1 h1, #article-2-2 h1, #article-3-1 h1, #article-4 h1, #article-5-1 h1{
     margin-bottom: 2rem;
     text-align: center;   
     font-size: 3rem;    
@@ -22,14 +22,11 @@ nav ul li:hover, header div ul li:hover {
 }
 
 #article-1-1 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+    margin: 0 1rem 1rem 0;
 }
 
-#article-5 h1, #article-6-1 h1 {
-    color: #ffffff;
-}
-
-#article-1-1 p, #article-2-2 p, #article-3-1 p, #article-5 p, #article-6-1 p {
+#article-1-1 p, #article-2-2 p, #article-3-1 p, #article-5-1 p {
     color: #BA4B2F;
     font-size: 1.3rem;
     text-align: left;    
@@ -38,26 +35,28 @@ nav ul li:hover, header div ul li:hover {
 
 #article-1-1 p{           
     font-size: 1.5rem;
-    text-align: left;  
-    margin-bottom: 2rem; 
+    text-align: center;  
+    margin: 0 1rem 2rem 0; 
 }
 
-#article-5 p {
-    color: #000;
-    padding: 2rem;
-    text-align: center;
+#article-5-1 p, #article-5-1 h2{
+    color: #fff;
 }
 
-#article-6-1 h2 {
-    color: #BA4B2F;
+#article-5-1 h2 {    
     margin-top: 2rem;
 }
 
 .panel p {
     font-size: 1.3rem;
     font-weight: 500;
+    text-align: start;
 }
 
 #article-4 {
     font-size: 1.5rem;
+}
+
+footer p {
+    color: #646464
 }
